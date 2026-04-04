@@ -8,10 +8,12 @@ import org.firstinspires.ftc.teamcode.Hardware.Servos;
 public class ServoPrac extends OpMode{
     Servos servos = new Servos();
 
+    @Override
     public void init() {
         servos.init(hardwareMap);
     }
 
+    @Override
     public void loop() {
         if (gamepad1.a) {
             servos.setServoPos(1);

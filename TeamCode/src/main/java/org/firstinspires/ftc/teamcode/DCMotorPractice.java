@@ -12,10 +12,12 @@ public class DCMotorPractice extends OpMode {
 
     Motor motor = new Motor();
 
+    @Override
     public void init() {
         motor.init(hardwareMap);
     }
 
+    @Override
     public void loop() {
         motor.setMotorSpeed(gamepad1.left_stick_y);
         if (gamepad1.a) {
