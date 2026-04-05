@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.Hardware;
+package org.firstinspires.ftc.teamcode.Practices.Hardware;
 
 import static org.firstinspires.ftc.robotcore.external.BlocksOpModeCompanion.gamepad1;
 
@@ -18,7 +18,7 @@ public class Motor {
         motor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         ticksPerRev = motor.getMotorType().getTicksPerRev();
         motor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
-        motor.setDirection(DcMotorSimple.Direction.FORWARD);
+        motor.setDirection(DcMotor.Direction.FORWARD);
 
     }
 

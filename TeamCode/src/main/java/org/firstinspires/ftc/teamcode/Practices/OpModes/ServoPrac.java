@@ -1,9 +1,8 @@
-package org.firstinspires.ftc.teamcode;
+package org.firstinspires.ftc.teamcode.Practices.OpModes;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
-import com.qualcomm.robotcore.hardware.HardwareMap;
 
-import org.firstinspires.ftc.teamcode.Hardware.Servos;
+import org.firstinspires.ftc.teamcode.Practices.Hardware.Servos;
 
 public class ServoPrac extends OpMode{
     Servos servos = new Servos();

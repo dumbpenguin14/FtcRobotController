@@ -1,11 +1,10 @@
-package org.firstinspires.ftc.teamcode;
+package org.firstinspires.ftc.teamcode.Practices.OpModes;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
-import com.qualcomm.robotcore.hardware.DcMotorSimple;
 
-import org.firstinspires.ftc.teamcode.Hardware.Motor;
+import org.firstinspires.ftc.teamcode.Practices.Hardware.Motor;
 
 @TeleOp
 public class DCMotorPractice extends OpMode {
@@ -28,10 +27,10 @@ public class DCMotorPractice extends OpMode {
         }
 
         if (gamepad1.x) {
-            motor.changeDirection(DcMotorSimple.Direction.FORWARD);
+            motor.changeDirection(DcMotor.Direction.FORWARD);
         }
         else if (gamepad1.y) {
-            motor.changeDirection(DcMotorSimple.Direction.REVERSE);
+            motor.changeDirection(DcMotor.Direction.REVERSE);
         }
 
         telemetry.addData("Motor revs", motor.getMotorRevs());

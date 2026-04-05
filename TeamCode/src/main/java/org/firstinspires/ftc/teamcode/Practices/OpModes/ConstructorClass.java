@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode;
+package org.firstinspires.ftc.teamcode.Practices.OpModes;
 
 public class ConstructorClass {
     double angle;
