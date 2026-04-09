@@ -16,7 +16,7 @@ public class ConstructorClass {
             angle -= 360;
         }
 
-        while (angle <= - 180) {
+        while (angle <= -180) {
             angle += 360;
         }
 

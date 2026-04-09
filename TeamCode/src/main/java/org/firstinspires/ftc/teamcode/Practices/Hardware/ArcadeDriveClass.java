@@ -23,7 +23,7 @@ public class ArcadeDriveClass {
 
     public void drive(double throttle, double spin) {
         double leftPower = throttle + spin;
-        double rightPower = throttle + spin;
+        double rightPower = throttle - spin;
         double largest = Math.max(Math.abs(leftPower), Math.abs(rightPower));
         if (largest > 1) {
             leftPower /= largest;
